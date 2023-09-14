@@ -13,20 +13,46 @@
       rgba(100, 108, 255, 1) 36%,
       rgba(63, 231, 255, 1) 90%
     ); */
-    margin-bottom: 0px;
+    margin-top: 2rem;
     height: 40rem;
-    color: white;
+    
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    list-style-type: none; /* Cela enlève les puces des éléments de liste */
+    padding-left: 0; 
+    margin-bottom: 20rem;
+  }
+
+  h1 {
+    margin-bottom: 2.5rem;
+  }
+
+  ul {
+    list-style-type: none; /* Cela enlève les puces des éléments de liste */
+    padding-left: 0; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    width: 80%;
+  }
+
+  ul li {
+    display: flex;
+    width: 40%;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
   
   .etape {
     display: flex;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    
   }
   
-  .etape-numero {
+  .etape-li-numero {
     flex-shrink: 0; /* Empêche le numéro de redimensionner le contenu */
     width: 30px;
     height: 30px;
@@ -39,8 +65,11 @@
     font-weight: bold;
     margin-right: 10px;
   }
+
+
   
   .etape-content {
+    color: white;
     flex-grow: 1;
     background-color: rgba(255, 255, 255, 0.87); /* Blanc avec transparence */
     padding: 10px;
@@ -49,6 +78,27 @@
     color: #333; /* Couleur de texte */
     text-align: justify;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+  }
+
+  .etape-content:hover {
+    border: 2px solid rgb(100,108,255);
+    transition: color 0.3s;
+  }
+
+  .button-doctor button{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    height: 3.5rem;
+
+  
   }
   
   /* Styles supplémentaires au besoin */

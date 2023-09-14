@@ -4,9 +4,16 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav>
-      <Link to='/'>Home</Link>
-      <Link to='/doctor-register'>Register</Link>
-      <Link to='/doctor-login'>Login</Link>
+      <div className='logo-slimO'>
+        <Link to='/'>SlimOclock</Link>
+        <p>Chill out yout time</p>
+      </div>
+      <div className='links'>
+      
+      <Link to='/'><button>Home</button></Link>
+      <Link to='/doctor-register'><button>Register</button></Link>
+      <Link to='/doctor-login'><button>Login</button></Link>
+      </div>
     </nav>
   )
 }

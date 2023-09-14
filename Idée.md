@@ -6,9 +6,13 @@ il devra entrer son numéro.  Est ce que le docteur peut supprimer les patients 
 - estimation de l'heure de passage du patient
 
 - si l'utilisateur change de mot de passe effacer le token ( ou si son compte est suspendu)
+- mot de passe oublié envoyé un message pour le récupérer 
+- contactez nous : recevoir le message directement sur ma boite mail
 
 -faire la déconenxion 
 - vérifier combien de temps le token est valide
+
+-
 
 
 

@@ -25,6 +25,9 @@ function App() {
         <Route path='/doctor-register' element={<Register/>} />
         <Route path='/doctor-login' element={<Login/>} />
         <Route path='/doctor-dashboard' element={<DoctorPage/>} />
+        <Route to="/about" element={<HomePage/>}/>
+        <Route to="/services"element={<HomePage/>}/>
+        <Route to="/contact" element={<HomePage/>}/>
       </Routes>
     </UserContextProvider>
   )

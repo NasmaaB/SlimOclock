@@ -1,0 +1,32 @@
+/* Footer.css */
+.footer-container {
+    background-color: rgba(100, 108, 255, 0.833);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+  .footer-content a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    
+  }
+  
+  .footer-content a:hover {
+    color: #646cff; /* Couleur au survol */
+  }
+  
+  .div-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link {
+    margin-right: 2rem;
+  }
