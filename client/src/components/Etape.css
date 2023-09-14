@@ -1,0 +1,56 @@
+/* .etape-container{
+    background-color: whitesmoke;
+    height: 30rem;
+    margin: 0;
+
+} */
+
+/* Etape.css */
+.etape-container {
+    /* background: rgb(100, 108, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(100, 108, 255, 1) 36%,
+      rgba(63, 231, 255, 1) 90%
+    ); */
+    margin-bottom: 0px;
+    height: 40rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .etape {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .etape-numero {
+    flex-shrink: 0; /* Empêche le numéro de redimensionner le contenu */
+    width: 30px;
+    height: 30px;
+    background-color: #646cff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .etape-content {
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.87); /* Blanc avec transparence */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Couleur de texte */
+    text-align: justify;
+    align-items: center;
+  }
+  
+  /* Styles supplémentaires au besoin */
+  
+  

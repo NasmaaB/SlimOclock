@@ -1,0 +1,17 @@
+nav {
+    
+    padding: 10px; /* Espacement intérieur */
+    color: black;
+    margin: 0px;
+  }
+  
+  nav a {
+    text-decoration: none; /* Supprimer la soulignement des liens */
+    margin-right: 20px; /* Marge à droite pour espacer les liens */
+    font-size: 18px; /* Taille de la police */
+  }
+  
+  nav a:hover {
+    /* Styles pour les liens au survol */
+    text-decoration: underline; /* Soulignement au survol */
+  }
