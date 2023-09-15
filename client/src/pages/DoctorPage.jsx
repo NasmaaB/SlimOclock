@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from "react"
 import { UserContext } from "../../context/userContext"
 import axios from 'axios'
+import OpenIconSpeedDial from "../components/OpenIconSpeedDial"
 
 
 export default function DoctorPage() {
@@ -13,7 +14,7 @@ export default function DoctorPage() {
     <div>
         <h1>Dashboard</h1>
         {!!user && (<h2> Hi {user.firstname}!</h2>)}
-        
+        <OpenIconSpeedDial/>
         <h2>My patient List</h2>
         <ul>
           {!! user &&  (user.daily_patient_list.map((patient) => 

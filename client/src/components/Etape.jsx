@@ -1,6 +1,8 @@
 import React from 'react'
 import './Etape.css'
 import { Link } from 'react-router-dom'
+import LoginModal from './LoginModal'
+import RegisterModal from './RegisterModal'
 
 
 export default function Etape() {
@@ -26,8 +28,8 @@ export default function Etape() {
             </li>
           </ul>
           <div className='button-doctor'>
-          <Link to='/doctor-register'><button>inscription</button></Link>
-          <Link to='/doctor-login'><button>connexion</button></Link>
+          <div><RegisterModal/></div>
+          <div><LoginModal/></div>
           </div>
         </div>
       </div>
@@ -51,7 +53,7 @@ export default function Etape() {
             </li>
           </ul>
           <div className="button-doctor">
-          <button>inscription</button>
+          <div><RegisterModal/></div>
           </div>
         </div>
       

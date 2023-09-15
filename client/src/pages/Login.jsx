@@ -2,6 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import {toast} from 'react-hot-toast'
 import {useNavigate} from 'react-router-dom'
+import '../stylesPages/Login.css'
 
 export default function Login() {
   const navigate = useNavigate()
@@ -23,20 +24,25 @@ export default function Login() {
       }else{
         setData({})
         navigate('/doctor-dashboard')
+        
       }
     } catch (error) {
       
     }
   }
 
+ 
+
   return (
-    <div>
+    <div className='login-container'>
       <form onSubmit={loginUser}>
-       <label>Email : </label>
-        <input type="email" placeholder='email...' value={data.email} onChange={(e) => setData({...data, email: e.target.value})} />
-        <label>Mot de Passe : </label>
-        <input type='password' placeholder='mot de passe...' value={data.password} onChange={(e) => setData({...data, password:e.target.value})} />
+       {/* <label>Email : </label> */}
+        <input type="email" placeholder='Enter your email' value={data.email} onChange={(e) => setData({...data, email: e.target.value})} />
+        {/* <label>Mot de Passe : </label> */}
+        <input type='password' placeholder='Enter your password' value={data.password} onChange={(e) => setData({...data, password:e.target.value})} />
+        <div className='login-button'>
         <button type='submit'>Login</button>
+        </div>
       </form>
     </div>
   )

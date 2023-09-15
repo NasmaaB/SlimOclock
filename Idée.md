@@ -12,7 +12,7 @@ il devra entrer son numéro.  Est ce que le docteur peut supprimer les patients 
 -faire la déconenxion 
 - vérifier combien de temps le token est valide
 
--
+-changer la navbar lorsque le docteur est connecté 
 
 
 

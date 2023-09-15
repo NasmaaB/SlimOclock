@@ -1,0 +1,55 @@
+/* Style pour les champs d'entrée et le bouton */
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="text"],
+.register-contanier button {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px; /* Espacement entre les éléments */
+  padding: 10px;
+  border: 1px solid #ccc; /* Bordure légère */
+  border-radius: 4px;
+}
+
+.register-container form{
+    margin-top: 1rem;
+}
+
+.register-container input:hover{
+    border: 2px solid rgba(63,231,255,1);
+    transition: ease-in-out 0.2s;
+}
+
+.register-container input:focus{
+    border: 2px solid rgba(63,231,255,1);
+    transition: ease-in-out 0.2s;
+}
+/* .register-container button {
+  background-color: #646cff;
+  color: white; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+.register-button {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.register-button button {
+    width: 100%;
+    margin-left: 1rem;
+    background-color: #646cff;
+    color: white;
+    border-radius: 4px;
+}
+.custom-modal button:hover {
+  background-color: #535bf2;
+ 
+}

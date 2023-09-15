@@ -3,6 +3,7 @@ import '../stylesPages/HomePage.css'
 import Description from '../components/Description'
 import Etape from '../components/Etape'
 import Footer from '../components/Footer'
+import LoginModal from '../components/LoginModal'
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
     <Description className='description'/>
     <Etape className='etape'/>
     <Footer className='footer' />
+
     </div>
   )
 }

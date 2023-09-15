@@ -13,6 +13,7 @@ export default function Navbar() {
       <Link to='/'><button>Home</button></Link>
       <Link to='/doctor-register'><button>Register</button></Link>
       <Link to='/doctor-login'><button>Login</button></Link>
+      <Link to='/doctor-dashboard'><button>Dashboard</button></Link>
       </div>
     </nav>
   )

@@ -92,13 +92,15 @@
     transition: color 0.3s;
   }
 
-  .button-doctor button{
+  .button-doctor{
+    display: flex;
+  }
+
+  .button-doctor div{
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 1.5rem;
     height: 3.5rem;
-
-  
   }
   
   /* Styles supplémentaires au besoin */
