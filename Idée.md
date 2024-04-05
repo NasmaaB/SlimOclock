@@ -14,6 +14,12 @@ il devra entrer son numéro.  Est ce que le docteur peut supprimer les patients 
 
 -changer la navbar lorsque le docteur est connecté 
 
+-rajouter une transition pour les modales 
+
+-pouvoir supprimer les patients ( icon poubell material ui ) 
+
+-utiliser pagination de material ui pour effets sur les pages 
+
 
 
 Slogan : 
